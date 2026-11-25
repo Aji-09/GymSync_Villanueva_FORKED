@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="201befdc-fa41-45fd-8c69-296180c8fb02" name="Changes" comment="project setup replaced">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2026_3_08_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2026_3_08_AM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2026_3_08_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="201befdc-fa41-45fd-8c69-296180c8fb02" name="Changes" comment="project setup replaced" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="upstream/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -25,7 +32,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="replace-all" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,61 +62,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000053088179353" />
-      <entry key="S2" value="1.2767682066341561" />
-      <entry key="S5" value="4.423700271274935" />
-      <entry key="S10" value="10.197474490898063" />
-      <entry key="S30" value="21.179708914203434" />
-      <entry key="S60" value="29.17183966341902" />
-      <entry key="M2" value="41.36491443950242" />
-      <entry key="M5" value="80.70137466546997" />
-      <entry key="M10" value="127.76524908515226" />
-      <entry key="M15" value="154.74469094335205" />
-      <entry key="M30" value="191.56288805342467" />
-      <entry key="H1" value="215.05260661724736" />
-      <entry key="H2" value="228.40656370104645" />
-      <entry key="H4" value="235.5395633806744" />
-      <entry key="D1" value="241.73305881247376" />
-      <entry key="W1" value="242.818421282373" />
+      <entry key="MS100" value="5.793320930469829E-8" />
+      <entry key="MS500" value="0.10377885323537982" />
+      <entry key="S2" value="2.9838892341905243" />
+      <entry key="S5" value="6.744377050850192" />
+      <entry key="S10" value="9.968391564611032" />
+      <entry key="S30" value="15.588453340019266" />
+      <entry key="S60" value="19.35750701436154" />
+      <entry key="M2" value="30.631240552334315" />
+      <entry key="M5" value="77.0551041997278" />
+      <entry key="M10" value="143.79347007279569" />
+      <entry key="M15" value="196.93071368726692" />
+      <entry key="M30" value="301.5812153913948" />
+      <entry key="H1" value="395.8873454066757" />
+      <entry key="H2" value="461.6140994600945" />
+      <entry key="H4" value="500.7840851883923" />
+      <entry key="D1" value="537.2494911198569" />
+      <entry key="W1" value="543.8830175578569" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.1431979417960465E-102" />
-      <entry key="S2" value="4.762207446042102E-26" />
-      <entry key="S5" value="7.432301583674795E-11" />
-      <entry key="S10" value="8.621079737292064E-6" />
-      <entry key="S30" value="0.02050472208288203" />
-      <entry key="S60" value="0.14319503057991656" />
-      <entry key="M2" value="0.37899958815863083" />
-      <entry key="M5" value="0.7502440238300919" />
-      <entry key="M10" value="1.3030735234107256" />
-      <entry key="M15" value="1.8276786053616978" />
-      <entry key="M30" value="2.863452066542273" />
-      <entry key="H1" value="3.7363316090139223" />
-      <entry key="H2" value="4.309335030095272" />
-      <entry key="H4" value="4.638483181998497" />
-      <entry key="D1" value="4.9373616353733825" />
-      <entry key="W1" value="4.990991353901256" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000018414" />
+      <entry key="S30" value="1.0001293069534327" />
+      <entry key="S60" value="1.01368653296891" />
+      <entry key="M2" value="1.1636335341929678" />
+      <entry key="M5" value="2.024333779710832" />
+      <entry key="M10" value="3.4620196419288742" />
+      <entry key="M15" value="4.606205207426785" />
+      <entry key="M30" value="6.8985646388314175" />
+      <entry key="H1" value="9.116018437637534" />
+      <entry key="H2" value="10.769859909306758" />
+      <entry key="H4" value="11.7991635164387" />
+      <entry key="D1" value="12.786547799316457" />
+      <entry key="W1" value="12.969160680715321" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2534898699475073" />
-      <entry key="MS500" value="0.7599675784389375" />
-      <entry key="S2" value="1.2076003158694426" />
-      <entry key="S5" value="4.380494464143797" />
-      <entry key="S10" value="10.161099711340695" />
-      <entry key="S30" value="21.176983363066874" />
-      <entry key="S60" value="29.29485151451864" />
-      <entry key="M2" value="41.72503785448344" />
-      <entry key="M5" value="81.43304699378798" />
-      <entry key="M10" value="129.0469857851016" />
-      <entry key="M15" value="156.55002570181142" />
-      <entry key="M30" value="194.40691053893687" />
-      <entry key="H1" value="218.77567495941554" />
-      <entry key="H2" value="232.70809105240554" />
-      <entry key="H4" value="240.1738033184619" />
-      <entry key="D1" value="246.66966172388894" />
-      <entry key="W1" value="247.809302924534" />
+      <entry key="MS100" value="2.5186197751276992E-5" />
+      <entry key="MS500" value="0.22169503882133926" />
+      <entry key="S2" value="3.5508787118619467" />
+      <entry key="S5" value="7.5287762327807695" />
+      <entry key="S10" value="10.84165398697963" />
+      <entry key="S30" value="16.53421914234636" />
+      <entry key="S60" value="20.340489754515684" />
+      <entry key="M2" value="31.775346648390748" />
+      <entry key="M5" value="79.06419332800718" />
+      <entry key="M10" value="147.24070391952066" />
+      <entry key="M15" value="201.52156211256462" />
+      <entry key="M30" value="308.46384096938334" />
+      <entry key="H1" value="404.9900906765675" />
+      <entry key="H2" value="472.37507525728483" />
+      <entry key="H4" value="512.5780655024259" />
+      <entry key="D1" value="550.035052529826" />
+      <entry key="W1" value="556.8520340339783" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -129,6 +136,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Toni Rose Villanueva/OneDrive/ENG1/GymSync-main/GymSync/src/main/java/com/group3/gymsync/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -137,10 +145,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Toni Rose Villanueva\OneDrive\ENG1\GymSync-main\GymSync\src\main\java\com\group3\gymsync\view" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Toni Rose Villanueva\OneDrive\ENG1\GymSync-main\GymSync\src\main\java\com\group3\gymsync" />
       <recent name="C:\Users\Toni Rose Villanueva\OneDrive\ENG1\GymSync-main\GymSync\src\main\resources\com\group3\gymsync" />
@@ -165,6 +176,23 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix project setup" />
